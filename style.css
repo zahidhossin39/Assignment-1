@@ -168,3 +168,65 @@ nav .menu {
    width: auto;
    
 }
+
+/*! cards heading and section */
+
+.section-title{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.section-title h2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #627382;
+    margin: 0 auto;
+}
+
+/* card-section */
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 80px 80px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.card-1 ,.card-2 ,.card-3,.card-4{
+    background: white;
+    padding: 30px 20px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.card-section img {
+    width: 50px;
+    height: 50px;
+    background: #ff6b6b;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card-section h4 {
+    font-size: 24px;
+    font-weight:600;
+    color: #1a2332;
+    margin-bottom: 15px;
+}
+
+.card-section p {
+    font-size: 15px;
+    color: #888;
+    line-height: 1.6;
+}
